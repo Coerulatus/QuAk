@@ -96,7 +96,7 @@ The following optional dependencies are necessary for mask post-processing, savi
 pip install opencv-python pycocotools matplotlib onnxruntime onnx
 ```
 
-In the future, when MATLAB® will support batch classification in SAM natively, you can skip this step.
+In the future, when MATLAB® will support batch classification in SAM natively, you can skip this step. 
 
 ### How to use SAM
 
