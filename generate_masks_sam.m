@@ -44,6 +44,6 @@ function generate_masks_sam(sam_script, checkpoint_path, model_type, input_dir, 
 %   - The output directory will be created if it does not already exist.
 
 exec = sam_script + " --checkpoint " + checkpoint_path + " --model-type " + model_type + " --input " + input_dir + " --output " + output_dir; 
-pyrunfile(exec) 
+pyrunfile(exec)
 end
 
